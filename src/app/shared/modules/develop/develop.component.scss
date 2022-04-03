@@ -1,0 +1,26 @@
+:host {
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 96rem;
+  height: 100%;
+  background: var(--dark-purple);
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 6rem;
+  line-height: 9rem;
+  font-family: "Maler", sans-serif;
+  text-align: center;
+  color: var(--white);
+}
