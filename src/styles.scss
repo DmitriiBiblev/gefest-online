@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+@import "styles/reset";
+@import "styles/variables";
+@import "styles/fonts";
+
+body {
+  height: 100vh;
+  background: url("/assets/images/background.png");
+  background-size: cover;
+  overflow: hidden;
+}
